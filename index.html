@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Veneza</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+  <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/9900543-ilustracao-grafico-de-pizza-fofa-com-estilo-de-cartoon-desenho-a-mao-bom-para-restaurante-camiseta-impressao-adesivo-cafe-logo-emblema-promocao-etc-vetor.jpg" class= "img"/>
+  <h1>PIZZARIA VENEZA</h1>
+  <h2>Bem vindo, se prepare para degustar a melhor pizza da região</h2>
+  <form method="post" action="teste.jsp">
+    Nome: <input type="text" name="nome"> <br>
+    Email: <input type="email" name="email"> <br>
+    Endereço: <input type="text" name="endereço"> <br>
+    <br>
+    <br>
+    <h3>
+      Escolha o tamanho
+    </h3>
+    
+            <input type="radio" name="Tamanho" value="g" > Grande
+            <input type="radio" name="Tamanho" value="m" > Media
+            <input type="radio" name="Tamanho" value="p" > Pequena
+   <br>
+   <br>
+   <h4>
+    Sabores:
+   </h4>
+  <select name="sabor">
+    <option>Brócolis</option>
+    <option>Lombo</option>
+    <option>Carne seca</option>
+</select> 
+    <br>
+    <br>
+    <fieldset style="width: 20%;">
+    <legend>Adicionais:</legend>
+    <input type="checkbox" name="catupiry" value="sim"> Catupiry <br>
+    <input type="checkbox" name="cheddar" value="sim"> Cheddar<br>
+    <input type="checkbox" name="bacon" value="sim"> Bacon <br>
+  </fieldset>
+<br>
+<br>
+Data entrega: <input type="date" name="DataEntrega">
+<br>
+<br>
+Observações: 
+<br>
+<textarea name=msg rows="10" cols="30"></textarea>
+<br>
+<input type="submit">   
+</form>
+</body>
+</html>
